@@ -1,0 +1,26 @@
+# Generated builds and local evidence
+/build/
+/reports/
+/local/
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+
+# Python environments and caches
+/.venv/
+/.cache/
+__pycache__/
+*.py[cod]
+
+# Private local settings; keep shareable templates
+/.env
+/.env.*
+!/.env.example
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
+*~

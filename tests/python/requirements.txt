@@ -1,0 +1,2 @@
+# Optional interoperability tests only; no Python runtime dependency.
+mcp==2.3.0
