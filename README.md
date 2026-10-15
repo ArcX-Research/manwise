@@ -42,10 +42,15 @@ sudo apt-get install build-essential man-db manpages
 For C programming manuals, also install `manpages-dev`.
 On other versions of Linux, install the matching build and manual tools.
 
-Then open a terminal in the Manwise folder and run:
+Open a terminal in the Manwise folder and build the program:
 
 ```sh
 make
+```
+
+Print the settings for your AI app:
+
+```sh
 ./build/manwise client-config
 ```
 
@@ -96,11 +101,15 @@ manual files you trust.
 
 ## Tests
 
-Tests need Python 3.9 or later. Checks for memory errors also need Clang,
-a C compiler:
+With Python 3.9 or later installed, run the tests:
 
 ```sh
 make test
+```
+
+To check for memory errors, you also need the Clang C compiler:
+
+```sh
 make sanitize
 ```
 
